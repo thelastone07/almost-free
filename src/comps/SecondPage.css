@@ -1,0 +1,33 @@
+#categoryName{
+    font-size: 100px;
+    font-family: 'Allison';
+    text-align: center;
+}
+.item{
+    width:400px;
+    height: 520px;
+    border:3px solid black;
+    margin: 15px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.quantity>button{
+    width:25px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+}
+#titleName{
+    font-size: 20px;
+}
+#buttons{
+    text-align: center;
+}
+#buttons>button{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
